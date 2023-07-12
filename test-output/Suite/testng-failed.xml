@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="password" value="jain"/>
+    <parameter name="Invalid" value="shubham jain"/>
+    <groups>
+      <run>
+        <include name="sanity"/>
+        <include name="invalid"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.Assignment.tests.LoginTest">
+        <methods>
+          <include name="close"/>
+          <include name="InvalidLogin"/>
+          <include name="initializeDriver"/>
+          <include name="openUrl"/>
+        </methods>
+      </class> <!-- com.Assignment.tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
