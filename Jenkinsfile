@@ -1,7 +1,7 @@
 pipeline{
     agent any
     	environment {
-		notifyEmail ="ravish.bagasi@nagarro.com"
+		notifyEmail ="sambhav.jain@nagarro.com"
 	}
     tools{
         maven 'maven_home'
